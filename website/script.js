@@ -28,7 +28,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
 function submitForm(formData) {
   // Make an API request to the backend (API Gateway) for form submission
-  fetch('your-api-gateway', { // URL that represents the backend API endpoint to which the form data is going to be sent
+  fetch('https://bhqdygm5f3.execute-api.us-east-1.amazonaws.com/dev', { // URL that represents the backend API endpoint to which the form data is going to be sent
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
